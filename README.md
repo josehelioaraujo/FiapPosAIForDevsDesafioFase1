@@ -6,7 +6,7 @@ Pós Graduação de IA para Devs da Fiap
  - RM 355027  - José Hélio Araújo Andrade - helioandrade@hotmail.com
     
 # Entregável
- - [Video de apresentação no Youtube](https://youtu.be/9nGaFuCOTAs)
+ - [Video de apresentação no Youtube](https://www.youtube.com/watch?v=hEAKczLgnfM)
  - [Arquivo Notebook no Colab Versão]( https://colab.research.google.com/drive/1AHNQmrB_aYjYEtIS9E9tGCUdryjE-n1r?usp=sharing)    
  - Github: [https://github.com/josehelioaraujo/FiapP](https://github.com/josehelioaraujo/FiapPosAIForDevsDesafioFase)
 # Introdução
