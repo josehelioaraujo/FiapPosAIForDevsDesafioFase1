@@ -1,0 +1,71 @@
+ Olá, pessoal, sejam bem-vindos!
+
+Este breve video,  tem a finalidade de apresentar, a implementação do nosso projeto relacionado ao  desafio Fase 1, 
+ do curso de pós-graduação, da primeira turma, em Inteligência Artificial para Desenvolvedores da FIAP.
+ 
+Nosso objetivo aqui é implementar um modelo preditivo de aprendizado de máquina
+para prever os custos de seguro de saúde.
+Utilizamos um conjunto de dados estático,  em formato CSV, que foi obtido na plataforma quegou.
+ 
+Este projeto é dividido em cinco partes principais:
+
+ 1. Coleta e Preparação dos Dados: 
+    Começamos obtendo os dados de uma fonte pública no quegou e carregamos no Google Colab.
+    Limpamos e pré-processamos os dados para garantir sua integridade e consistência. 
+    e as variáveis categóricas foram codificadas numericamente.
+ 
+ 2. Análise Exploratória de Dados: 
+  Geramos gráficos e estatísticas descritivas para entender a distribuição das variáveis
+  e suas relações com o custo do seguro. 
+   Por exemplo, observamos uma correlação positiva
+    entre índice de massa corporal, idade, número de filhos e hábito de fumar no custo do seguro,
+   as Variações regionais e de sexo,também foram identificadas, porém de forma,  menos impactantes.
+  
+ 3. Treinamento de Modelos Preditivos: 
+    Testamos três modelos de regressão diferentes:
+    - Regressão Linear
+    - Random Forest
+    - XGBoost
+  Cada modelo foi avaliado em termos de acurácia usando métricas como R² e RMSE.
+  O XGBoost apresentou o melhor desempenho e foi selecionado.
+
+ 4. Teste e Validação do Modelo: 
+  O modelo XGBoost foi testado com um conjunto de dados separado, confirmando sua precisão.
+  Fizemos validação estatística usando o teste Shapiro-Wilk 
+  e calculamos o p value e o intervalo de confiança para a média dos resíduos.
+
+ 5. Criação de um Formulário Simples: 
+   Embora não solicitado no enunciado, criamos um formulário no Google Colab 
+   onde os usuários podem inserir dados
+   e obter o custo do seguro calculado pelo modelo preditivo.
+ 
+E para concluir, conforme os insaites revelados,
+Observamos que:
+- O modelo XGBoost foi o mais eficaz para prever os custos do seguro de saúde.
+- Variáveis como idade, índice de massa corporal, número de filhos e hábito de fumante tiveram o maior impacto no custo do seguro.
+- O modelo pode estimar custos para novos indivíduos com base em suas características.
+
+Só uma ressalva:
+
+Neste trabalho acadêmico, mesmo usando um conjunto de dados reduzido,
+mas que teve uma boa precisão no modelo de predição do custo do seguro,
+podemo recomedar alguns pontos de melhorias que são:
+
+- Coletar mais dados para aumentar a precisão do modelo.
+- Explorar outras técnicas de pré-processamento e seleção de variáveis.
+- Desenvolver uma interface gráfica amigável, possivelmente usando o framework Streamlit, 
+  para facilitar o uso do modelo por usuários não técnicos.
+
+ 
+Pra finalizar, neste video:
+
+Executamos cada linha de código,
+passo a passo no Google Colab 
+E também  executamos tudo de uma só vez pressionando Ctrl + F9.
+e visualizamos os resultados na tela do google colabe.
+ 
+Esperamos que a apresentação tenha sido clara e objetiva. 
+Vale lembrar que esta narração foi gerada por um aplicativo de conversão de texto para voz,
+ cujo nome está nas referências do projeto.
+
+Obrigado pela atenção e até logo!
